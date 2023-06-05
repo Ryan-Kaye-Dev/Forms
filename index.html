@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="left-side">
+        <div id="logo-box">
+          <img id="logo" src="./logo.png" />
+          <div id="logo-text">ODIN</div>
+        </div>
+      </div>
+      <div id="right-side">
+        <div id="top">
+          This is not a real online service! You know you need something like
+          this in your life to help you realise your deepest dreams. Sign up
+          <em>now</em> to get started.
+          <p>You <em>know</em> you want to.</p>
+        </div>
+        <div id="mid">
+          <form action="notsure.com/whatgoeshere" method="post">
+            <div id="col1">
+              <label for="first_name">FIRST NAME</label>
+              <input type="text" />
+              <label for="last_name">LAST NAME</label>
+              <input type="text" />
+              <label for="email">EMAIL</label>
+              <input type="email" />
+              <label for="phone_number">PHONE NUMBER</label>
+              <input type="text" />
+              <label for="password">PASSWORD</label>
+              <input type="password" />
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" />
+            </div>
+          </form>
+        </div>
+        <div id="bottom">
+            <button>Create Account</button>
+            <p>Already have an account? <a href="ok">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
