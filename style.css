@@ -49,20 +49,20 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0,0,0,0.5);
+    background-color: rgb(0,0,0,0.2);
     position: relative;
     top: 15vh;
 }
 
 #logo{
-    
-    max-height: 100px;
+    padding: 5px;
+    max-height: 75px;
     max-width: auto;
 }
 
 #logo-text {
     font-family: font;
-    color: white;
+    color: black;
     font-size: 3.2rem;
 }
 
@@ -76,6 +76,7 @@ p {
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 2px -2px gray;
+    
 }
 
 #col1, #col2 {
@@ -91,7 +92,7 @@ input,label {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: darkslategrey;
     border: none;
     color: white;
     padding: 15px 32px;
