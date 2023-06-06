@@ -104,7 +104,16 @@ button {
     box-shadow: 0 4px 2px -2px gray;
   }
 
-  input :focus {
+  input:focus {
     border: solid lightseagreen 5px;
     box-shadow: 0 4px 2px -2px gray;
+  }
+
+  .error {
+    background-color: rgb(255,0,0,0.3);
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
   }
